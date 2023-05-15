@@ -1,0 +1,28 @@
+{
+  "name": "ci-cd-github-actions",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js",
+    "lint-fix": "eslint --fix . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patil-Mayur/ci-cd-github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patil-Mayur/ci-cd-github-actions/issues"
+  },
+  "homepage": "https://github.com/Patil-Mayur/ci-cd-github-actions#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
