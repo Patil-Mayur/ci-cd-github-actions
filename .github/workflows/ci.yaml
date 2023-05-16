@@ -21,3 +21,6 @@ jobs:
 
       - name: Run Tests
         run: npm run ci:test
+
+      - name: Build and Output
+        run: npm run build
