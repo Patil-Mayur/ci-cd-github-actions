@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 module.exports = {
   module: {
     rules: [
@@ -7,6 +9,8 @@ module.exports = {
         use: 'babel-loader'
       }
     ]
-  }
-
+  },
+  plugins: [new HtmlWebpackPlugin({
+    template: './src/index.html'
+  })]
 }
