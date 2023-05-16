@@ -1,5 +1,5 @@
 
-const add = require('./helper')
+import add from './helper'
 
 function runTest () {
   console.log('Running Test')
